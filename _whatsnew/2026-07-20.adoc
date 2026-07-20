@@ -13,8 +13,8 @@ Obtén más información sobre el link:https://docs.netapp.com/us-en/console-wel
 
 El panel bien arquitectado en la Consola está disponible para los siguientes sistemas de almacenamiento:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP en Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP en Microsoft Azure"]
 
 
 
