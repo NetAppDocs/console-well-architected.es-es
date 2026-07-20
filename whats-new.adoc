@@ -1,0 +1,39 @@
+= 20 de julio de 2026
+:allow-uri-read: 
+
+
+enlace permanente: whats-new.html palabras clave: novedades, características, nuevo, notas de la versión, mejoras, correcciones, nuevas funciones, well-architected, panel de control well-architected, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap resumen: "Descubre las novedades del panel de control well-architected en NetApp Console." --- = Novedades del panel de control well-architected en NetApp Console :iconos: fuente :directorio de imágenes: ./media/
+
+[role="lead"]
+Descubre las novedades del componente Well-architected de Workload Factory.
+
+Descubre las novedades del panel de control Well-Architected en NetApp Console.
+
+
+
+[[20-july-2026]]
+== 20 de julio de 2026
+
+
+
+[[introducing-the-well-architected-dashboard-in-netapp-console]]
+=== Presentamos el panel bien arquitectado en NetApp Console
+
+El panel de control well-architected en NetApp Console ofrece una vista única de tus sistemas de almacenamiento y configuraciones en todas las cuentas y regiones. El panel de control proporciona información y recomendaciones para ayudarte a alcanzar la excelencia operativa. Puedes ver el estado well-architected de tus configuraciones, los problemas de configuración organizados según los pilares del marco well-architected para el tipo de almacenamiento que usas, y una lista de problemas de configuración y recomendaciones.
+
+Obtén más información sobre el link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["panel bien diseñado"].
+
+El panel bien arquitectado en la Consola está disponible para los siguientes sistemas de almacenamiento:
+
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP en Microsoft Azure"]
+
+
+
+
+[[build-your-own-custom-rules]]
+=== Crea tus propias reglas personalizadas
+
+Redacta reglas personalizadas en lenguaje sencillo para asegurarte de que tus sistemas cumplan con las normas de tu organización y las mejores prácticas de NetApp. Prueba las reglas con una simulación y luego programa que se ejecuten en todos tus entornos.
+
+https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"^]

@@ -1,0 +1,168 @@
+---
+sidebar: sidebar 
+permalink: fsx/configuration-analysis-fsx.html 
+keywords: configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
+summary: NetApp Console analiza periódicamente las configuraciones del sistema de almacenamiento para determinar si existe algún problema de configuración. 
+---
+= Análisis de la configuración de Amazon FSx para NetApp ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Console analiza regularmente las configuraciones de los sistemas de almacenamiento para determinar si hay algún problema de configuración. Cuando se encuentran problemas, NetApp Console te muestra cuáles son y te explica qué necesitas cambiar para asegurarte de que tus sistemas de almacenamiento logren el máximo rendimiento, eficiencia de costos y cumplimiento con las mejores prácticas.
+
+Las capacidades clave incluyen:
+
+* Análisis diario de configuración
+* Validaciones automáticas de las mejores prácticas para los sistemas de almacenamiento NetApp ONTAP y los proveedores de almacenamiento asociados
+* Observabilidad proactiva
+* De la información a la acción
+
+
+
+
+[[analysis-requirements]]
+== Requisitos de análisis
+
+Para realizar un análisis completo del sistema de archivos, debes hacer lo siguiente:
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Implementa un agente de NetApp Console"^] o link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["asociar un enlace"^]. El agente de la consola y la conectividad de enlace permiten que NetApp Console analice todas las configuraciones del sistema de archivos, como la protección de datos y el rendimiento.
+* Concede permisos de _vista, planificación y análisis_ en tu cuenta de AWS.
++
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprende cómo conceder permisos a una cuenta de AWS"^]
+
+
+
+
+
+[[best-practices-and-recommendations-for-storage-workloads]]
+== Mejores prácticas y recomendaciones para cargas de trabajo de almacenamiento
+
+Workload Factory evalúa las configuraciones de almacenamiento según las prácticas recomendadas de ONTAP y el AWS Well-Architected Framework. La evaluación también recomienda mejoras y soluciones.
+
+El análisis bien diseñado clasifica las configuraciones en los siguientes pilares del marco: _fiabilidad_, _seguridad_, _excelencia operativa_, _optimización de costes_ y _eficiencia de rendimiento_.
+
+
+
+[[reliability]]
+=== Fiabilidad
+
+La fiabilidad garantiza que las cargas de trabajo realicen sus funciones previstas de forma correcta y constante, incluso cuando hay interrupciones.
+
+* *Programar copias de seguridad de volúmenes*
++
+Hacer copias de seguridad de tus volúmenes ayuda a respaldar las necesidades de retención y cumplimiento de datos. Usa las copias de seguridad de volúmenes para configurar copias de seguridad automatizadas y la retención de tus datos.
+
+* *Programa instantáneas locales*
++
+Programa instantáneas locales para copias de seguridad eficientes y restauraciones rápidas. Las instantáneas son imágenes instantáneas de momento específico de tus volúmenes.
+
+* *Replicación interregional*
++
+La replicación entre regiones asegura que tus datos se repliquen en otra región de AWS, lo que te da mayor durabilidad y disponibilidad de los datos. Workload Factory recomienda configurar la replicación entre regiones para ayudarte con la recuperación ante desastres y el cumplimiento.
+
+* *Configura la replicación de datos*
++
+Para ampliar la fiabilidad de los datos, los datos se pueden replicar a un sistema de archivos FSx for ONTAP en la misma región o en otra región. Configura la replicación de datos para apoyar la migración, la recuperación ante desastres y la retención a largo plazo entre sistemas de archivos.
+
+* *Aumenta el umbral de capacidad de las SSD*
++
+El uso de la capacidad del nivel de almacenamiento SSD no debe superar el 80 %. Esto podría afectar las lecturas y escrituras de datos en el nivel de almacenamiento de tu grupo de capacidad y afectar la capacidad de rendimiento de tu sistema de archivos. Si se agota la capacidad, los volúmenes de datos pasan a ser de solo lectura. Los servicios que intentan escribir nuevos datos también fallan.
+
+* *Coincide etiquetas para garantizar la fiabilidad de los datos*
++
+Las etiquetas de la política de instantáneas del volumen de origen y las etiquetas de la política de replicación deben coincidir para asegurar la confiabilidad de los datos.
+
+* *Aumentar el umbral de capacidad de archivos*
++
+Se debe aumentar el umbral de capacidad de archivos para evitar alcanzar el límite de capacidad del volumen. Una baja capacidad de archivos (inodos) impide escribir datos adicionales en el volumen. Workload Factory recomienda mantener el uso de la capacidad de archivos por debajo del 80%. Se necesita capacidad de archivos disponible para crear nuevos archivos en el volumen.
+
+
+
+
+
+[[security]]
+=== Seguridad
+
+La seguridad enfatiza la protección de datos, sistemas y activos mediante evaluaciones de riesgos y estrategias de mitigación.
+
+* *Activar ARP/AI*
++
+NetApp Autonomous Ransomware Protection with AI (ARP/AI) te ayuda a proteger tus volúmenes de las amenazas de ransomware. Workload Factory recomienda habilitar ARP/AI para todos los volúmenes.
+
+* *Acceso no autorizado a volúmenes*
++
+Los volúmenes que sirven datos de aplicaciones mediante iSCSI no deben permitir el acceso NAS al mismo tiempo. Workload Factory recomienda restringir el uso de cualquier otro protocolo en los volúmenes iSCSI.
+
+
+
+
+
+[[operational-excellence]]
+=== Excelencia operativa
+
+La excelencia operativa se centra en ofrecer la arquitectura y el valor empresarial más óptimos.
+
+* *Habilitar la gestión automática de la capacidad*
++
+Debe activarse la gestión automática de la capacidad para garantizar periódicamente que el nivel de SSD no supere el umbral.
+
+* *Umbral de uso de la capacidad de volumen*
++
+Workload Factory recomienda que la capacidad del volumen no supere el 80% de uso de forma continuada. Esto puede afectar las lecturas y escrituras de datos de tu aplicación. El aumento de la capacidad del volumen puede ser manual o automático usando la función de crecimiento automático de volúmenes.
+
+* *Uso del volumen casi al máximo*
++
+Cuando un volumen se acerca a su capacidad máxima, Workload Factory recomienda tomar medidas para aumentar la capacidad del volumen y evitar posibles interrupciones en la aplicación.
+
+* *Modo de escritura de la relación de caché*
++
+Para un rendimiento óptimo, Workload Factory recomienda el modo de escritura en caché que mejor se adapte a tu carga de trabajo. El modo write-around ofrece un mejor rendimiento para cargas de trabajo con muchas lecturas y archivos pequeños, mientras que el modo write-back ofrece un mejor rendimiento para cargas de trabajo con muchas escrituras y archivos grandes.
+
+* *Optimiza el tamaño del volumen de caché*
++
+NetApp Workload Factory recomienda activar el autodimensionado de volúmenes y el scrubbing en los volúmenes de caché para mantener un tamaño óptimo y centrar la caché en los datos calientes para lograr la máxima eficiencia.
+
+* *Informes lógicos de Storage VM*
++
+Workload Factory recomienda que la configuración de informes predeterminada se establezca en logical para una VM de almacenamiento para ofrecer mejor visibilidad del uso del almacenamiento a nivel de volumen.
+
+
+
+
+
+[[cost-optimization]]
+=== Optimización de costos
+
+La optimización de costes te ayuda a obtener el máximo valor para tu negocio mientras mantienes los costes bajos.
+
+* *Optimiza el TCO moviendo los datos fríos a diferentes niveles*
++
+Activa la organización por niveles de datos inactivos para reducir la utilización del nivel de almacenamiento SSD. Workload Factory recomienda aplicar una política de organización por niveles a cada volumen. FSx for ONTAP analiza los datos de forma continua para detectar los datos inactivos y trasladarlos al nivel de almacenamiento de capacidad sin interrupciones.
+
+* *Habilitar eficiencias de almacenamiento*
++
+Activa las eficiencias de almacenamiento —compactación, compresión y deduplicación— para optimizar el uso de la capacidad y reducir el coste del nivel de almacenamiento SSD.
+
+* *Eliminación innecesaria de instantáneas y backups*
++
+Las instantáneas y copias de seguridad que ya no se necesiten deben eliminarse para reducir costos.
+
+* *Dispositivos de bloque inactivos*
++
+Después de que un dispositivo de bloque no se use durante siete días, Workload Factory recomienda archivar los datos del dispositivo de bloque o eliminar el dispositivo de bloque no utilizado para reducir costos.
+
+* *Capacidad de SSD infrautilizada*
++
+Un nivel de capacidad SSD infrautilizado genera costes innecesarios. Workload Factory recomienda reducir la capacidad del nivel SSD, manteniendo al mismo tiempo un margen de espacio libre del 20 % por encima de la capacidad utilizada actualmente. Una operación de reducción puede tardar entre varias horas y varios días, y el sistema no admite otras operaciones del sistema de archivos durante este tiempo.
+
+* *Volúmenes NAS inactivos*
++
+El análisis de configuración identifica los volúmenes NAS que no se utilizan activamente y recomienda eliminarlos o archivarlos para reducir costes.
+
+
+
+.Qué sigue
+link:fsx/improve-configurations-fsx.html["Implementa configuraciones bien diseñadas del sistema de archivos FSx for ONTAP"]

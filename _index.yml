@@ -1,0 +1,48 @@
+---
+indexpage:
+  title: Panel de control bien diseñado en NetApp Console
+  summary: NetApp Console te ayuda a mantener y operar configuraciones fiables, seguras,
+    eficientes y rentables que se alinean con los marcos bien arquitectados para el
+    tipo de almacenamiento que usas.
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: La NetApp Console te ayuda a mantener configuraciones de almacenamiento fiables,
+    seguras, eficientes y rentables, en consonancia con el marco well-architected
+    de tu tipo de almacenamiento. El panel de control well-architected ofrece una
+    vista unificada de todas las cuentas y regiones, ayuda a los equipos a identificar
+    y priorizar los riesgos y admite reglas personalizadas para requisitos específicos.
+  tiles:
+  - title: Empezar
+    links:
+    - title: Notas de publicación
+      url: "/whats-new.html"
+    - title: Descubre el panel de control de well-architected
+      url: "/learn-well-architected-dashboard.html"
+  - title: Productos compatibles
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: Crea tus propias reglas
+    links:
+    - title: Conoce las reglas personalizadas
+      url: "/learn-custom-rules.html"
+    - title: Crear una regla personalizada
+      url: "/create-custom-rule.html"
+    - title: Gestiona reglas personalizadas
+      url: "/manage-custom-rules.html"
+  - title: Conocimiento y soporte
+    links:
+    - title: Regístrate para recibir asistencia
+      url: "/register-support.html"
+    - title: Consigue ayuda
+      url: "/get-help.html"
+  - title: Blogs y comunidad
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: Comunidad de NetApp
+      url: https://community.netapp.com/

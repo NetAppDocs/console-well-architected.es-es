@@ -1,0 +1,48 @@
+---
+settings:
+  name: Well-architected dashboard
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  release_notes_autogen:
+    release_notes_repo: console-relnotes
+  langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Empezar
+    entries:
+    - title: Novedades
+      url: "/whats-new.html"
+    - title: Descubre el panel de control de well-architected
+      url: "/learn-well-architected-dashboard.html"
+  - title: Productos compatibles
+    entries:
+    - title: Amazon FSx for NetApp ONTAP
+      entries:
+      - title: Análisis de la configuración
+        url: "/fsx/configuration-analysis-fsx.html"
+      - title: Mejora las configuraciones del sistema de archivos
+        url: "/fsx/improve-configurations-fsx.html"
+    - title: Cloud Volumes ONTAP
+      entries:
+      - title: Análisis de la configuración
+        url: "/cvo/configuration-analysis-cvo.html"
+      - title: Mejora las configuraciones del sistema
+        url: "/cvo/improve-configurations-cvo.html"
+  - title: Crea tus propias reglas
+    entries:
+    - title: Conoce las reglas personalizadas
+      url: "/learn-custom-rules.html"
+    - title: Crear una regla personalizada
+      url: "/create-custom-rule.html"
+    - title: Gestiona reglas personalizadas
+      url: "/manage-custom-rules.html"
+  - title: Avisos legales
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

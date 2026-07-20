@@ -1,0 +1,122 @@
+---
+sidebar: sidebar 
+permalink: manage-custom-rules.html 
+keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
+summary: Ver, activar, desactivar y eliminar reglas arquitectónicas personalizadas del catálogo de reglas. 
+---
+= Gestiona reglas personalizadas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+El catálogo de reglas es un lugar desde el que puedes gestionar todas tus reglas personalizadas. Puedes consultar los detalles de cada regla, comprobar sus resultados y activarla o desactivarla.
+
+
+
+[[view-the-rules-catalog]]
+== Ver el catálogo de reglas
+
+El catálogo de reglas muestra todas las reglas que has creado, su estado, su programación y los últimos resultados.
+
+.Pasos
+. Inicia sesión usando una de las link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias en la consola"^].
+. Selecciona el menú image:workloads-menu-icon.png["El icono del menú hamburguesa"] y luego selecciona *Generador de reglas*.
+. Haz clic en *Ver tus reglas* para abrir el catálogo de reglas.
+
+
+
+
+[[view-rule-results]]
+== Ver los resultados de la regla
+
+Los resultados muestran qué recursos cumplen tu norma y cuáles no.
+
+.Pasos
+. En el catálogo de reglas, haz clic en la regla que quieras revisar.
+. Selecciona la pestaña *All runs results*.
+. Selecciona **Ver detalles** para ver los resultados de cada ejecución.
+
+
+Si la comprobación ha fallado en algunos elementos, lee el mensaje de error para ver por qué. Las causas más habituales son problemas de conexión, falta de permisos o un Link/Connector que no se ha configurado.
+
+
+
+[[pause-a-rule]]
+== Poner en pausa una regla
+
+Pausa una regla para detener las evaluaciones sin eliminar la regla. Las reglas en pausa permanecen en el catálogo y se pueden reiniciar en cualquier momento.
+
+.Pasos
+. En el catálogo de reglas, haz clic en la regla que quieras pausar.
+. Debe realizar una de las siguientes acciones:
++
+** Para pausar una regla programada, haz clic en *Pausar* y luego confirma. La regla deja de ejecutarse según su programación.
+** Para reanudar una regla en pausa, haz clic en *Reanudar* y luego confirma. La regla vuelve a realizar evaluaciones periódicas.
+
+
+
+
+
+
+[[delete-a-custom-rule]]
+== Eliminar una regla personalizada
+
+Elimina una regla de forma definitiva cuando ya no la necesites. Esta acción no se puede deshacer.
+
+.Pasos
+. En el catálogo de reglas, haz clic en la regla que quieras eliminar.
+. Haz clic en *Delete*.
+. Confirma que deseas eliminar la regla de forma permanente.
+
+
+.Resultado
+La regla se elimina del catálogo. Se borra todo el historial de evaluaciones.
+
+
+
+[[run-a-quick-test]]
+== Haz una prueba rápida
+
+Realiza una prueba rápida en cualquier momento para comprobar el cumplimiento actual sin tener que esperar a la próxima ejecución programada.
+
+.Pasos
+. En el catálogo de reglas, haz clic en la regla que quieras evaluar.
+. Haz clic en *Validar*.
++
+El sistema evalúa todos los recursos en el alcance según la lógica de la regla.
+
+. Revisa los resultados para ver el estado actual del cumplimiento.
+
+
+Las pruebas se auditan y aparecen en el historial de evaluación de la regla.
+
+
+
+[[understand-execution-status]]
+== Entiende el estado de ejecución
+
+El estado de ejecución muestra si una regla se ejecutó correctamente.
+
+Exitoso:: Se han revisado todos los recursos pertinentes y no se han detectado errores.
+Éxito parcial:: Algunos recursos se comprobaron correctamente, pero otros fallaron. Consulta los detalles del error de los que no se pudieron comprobar.
+Con errores:: La evaluación no se ha completado. Las causas más comunes incluyen errores de credenciales de AWS, problemas de conexión de red o problemas de permisos de ONTAP.
+
+
+Si una regla sigue fallando o solo tiene éxito parcialmente, comprueba que:
+
+* Las credenciales de AWS tienen acceso de solo lectura a todos los recursos.
+* El enlace y el conector están configurados para todos los sistemas de archivos en el alcance.
+* El usuario del visor FSx para ONTAP tiene los permisos adecuados.
+
+
+
+
+[[what-to-do-next]]
+== Qué hacer a continuación
+
+link:learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"]
