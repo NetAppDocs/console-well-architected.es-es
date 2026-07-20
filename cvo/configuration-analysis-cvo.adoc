@@ -110,4 +110,4 @@ Activa la organización por niveles de datos inactivos para trasladar los datos 
 
 
 .Qué sigue
-link:cvo/improve-configurations-cvo.html["Implementa configuraciones de sistema Cloud Volumes ONTAP bien diseñadas"]
+link:improve-configurations-cvo.html["Implementa configuraciones de sistema Cloud Volumes ONTAP bien diseñadas"]
