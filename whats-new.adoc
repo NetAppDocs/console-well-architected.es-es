@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
 summary: Descubre las novedades del panel de control bien arquitectado en NetApp Console. 
 ---
-= Novedades del panel de control Well-Architected en NetApp Console
+= Novedades del panel de control well-architected en NetApp Console
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Descubre las novedades del componente Well-architected de Workload Factory.
-
-Descubre las novedades del panel de control Well-Architected en NetApp Console.
+Descubre las novedades del panel de control bien arquitectado en NetApp Console.
 
 
 
@@ -42,4 +40,4 @@ El panel bien arquitectado en la Consola está disponible para los siguientes si
 
 Redacta reglas personalizadas en lenguaje sencillo para asegurarte de que tus sistemas cumplan con las normas de tu organización y las mejores prácticas de NetApp. Prueba las reglas con una simulación y luego programa que se ejecuten en todos tus entornos.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"]

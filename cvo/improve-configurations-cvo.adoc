@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: Workload factory analiza las configuraciones de Cloud Volumes ONTAP y ofrece información y recomendaciones para ayudarte a alcanzar la excelencia operativa. 
+summary: El panel de control bien estructurado analiza las configuraciones de Cloud Volumes ONTAP y ofrece información y recomendaciones para ayudarte a alcanzar la excelencia operativa. 
 ---
 = Implementa configuraciones de sistema Cloud Volumes ONTAP bien diseñadas
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["Conoce el análisis de configuración y el
 [[about-this-task]]
 == Acerca de esta tarea
 
-NetApp analiza a diario las implementaciones del sistema Cloud Volumes ONTAP en Microsoft Azure. El análisis diario ofrece el estado de well-architected, así como información y recomendaciones que te ayudan a resolver problemas de configuración para que tus sistemas cumplan con las mejores prácticas.
+El panel de control well-architected analiza a diario las configuraciones de implementación del sistema Cloud Volumes ONTAP en Microsoft Azure. El análisis diario ofrece el estado well-architected, información detallada y recomendaciones.
 
-Puedes consultar las recomendaciones sobre problemas de configuración de tus sistemas sin necesidad de instalar un agente de Console; sin embargo, la conectividad del agente de Console permite que NetApp ofrezca el análisis más completo de los recursos de tu sistema.
+La conectividad mediante Link o el agente de la consola permite que el panel de control well-architected en la NetApp Console realice un análisis exhaustivo de tus sistemas Cloud Volumes ONTAP para detectar problemas relacionados con el rendimiento, la protección de datos y las configuraciones. Esto asegura que recibas información precisa y recomendaciones para optimizar tus sistemas Cloud Volumes ONTAP.
 
-Una vez finalizado el análisis diario, el panel de control muestra el número total de recursos con una arquitectura adecuada, el número de recursos en estado crítico y el número de recursos en estado de advertencia. Las configuraciones se clasifican según los pilares del marco de arquitectura adecuada: fiabilidad, excelencia operativa, optimización de costes, eficiencia del rendimiento y seguridad. El panel de control también incluye una tabla que enumera todas las configuraciones, el estado de well-architected de dichas configuraciones, la gravedad, la categoría, el tipo de recurso (volumen o sistema), los recursos afectados y la opción de ver la recomendación cuando la configuración no está optimizada.
+Los requisitos de configuración del almacenamiento varían. Puedes descartar el análisis de configuraciones específicas que no se apliquen a tu entorno de almacenamiento. Esto te ayuda a evitar alertas innecesarias y resultados de optimización inexactos.
 
 
 

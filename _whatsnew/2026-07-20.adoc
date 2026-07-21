@@ -24,4 +24,4 @@ El panel bien arquitectado en la Consola está disponible para los siguientes si
 
 Redacta reglas personalizadas en lenguaje sencillo para asegurarte de que tus sistemas cumplan con las normas de tu organización y las mejores prácticas de NetApp. Prueba las reglas con una simulación y luego programa que se ejecuten en todos tus entornos.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Obtén más información sobre las reglas personalizadas"]

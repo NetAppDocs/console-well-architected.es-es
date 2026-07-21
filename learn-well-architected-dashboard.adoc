@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: learn-well-architected-dashboard.html 
 keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
-summary: NetApp Console analiza las configuraciones del sistema en cuanto a fiabilidad, seguridad, excelencia operativa, optimización de costes y eficiencia del rendimiento, y ofrece información y recomendaciones para ayudarte a alcanzar la excelencia operativa. 
+summary: El panel bien arquitectado en la NetApp Console analiza las configuraciones del sistema para fiabilidad, seguridad, excelencia operativa, optimización de costes y eficiencia del rendimiento, proporcionando información y recomendaciones para ayudarte a lograr la excelencia operativa. 
 ---
 = Descubre el panel bien arquitectado en la consola de NetApp
 :allow-uri-read: 
@@ -11,32 +11,32 @@ summary: NetApp Console analiza las configuraciones del sistema en cuanto a fiab
 
 
 [role="lead"]
-NetApp Console te ayuda a mantener y operar configuraciones fiables, seguras, eficientes y rentables que se alinean con los marcos bien arquitectados para el tipo de almacenamiento que usas. El panel bien arquitectado proporciona una vista unificada entre cuentas y regiones, ayuda a los equipos a identificar y priorizar riesgos, y admite reglas personalizadas para requisitos específicos. Los análisis automáticos diarios de las configuraciones de tu sistema de almacenamiento ofrecen información y recomendaciones para ayudarte a optimizar tus entornos de almacenamiento.
+El panel de control de arquitectura óptima en NetApp Console te ayuda a mantener y operar configuraciones fiables, seguras, eficientes y rentables que se alinean con los marcos de arquitectura óptima para el tipo de almacenamiento que usas. El panel de control proporciona una vista unificada de todas las cuentas y regiones, ayuda a los equipos a identificar y priorizar riesgos, y admite reglas personalizadas para requisitos específicos. Los análisis diarios automáticos de las configuraciones de tu sistema de almacenamiento te ofrecen información detallada y recomendaciones para ayudarte a optimizar tus entornos de almacenamiento.
 
 
 
 [[how-it-works]]
 == Cómo funciona
 
-NetApp Console analiza tus configuraciones a diario. El análisis proporciona el estado bien arquitectado, información y recomendaciones.
+El panel de control «Well-Architected» analiza tus configuraciones a diario. El análisis ofrece el estado de «Well-Architected», información detallada y recomendaciones.
 
-Una vez finalizado el análisis diario, las configuraciones aparecen como "optimizadas" o "no optimizadas" en el panel de control well-architected para la implementación. Encontrarás la puntuación total de optimización, los problemas de configuración por categoría y una lista de problemas de configuración y recomendaciones. Puedes revisar las recomendaciones para los problemas de configuración. Algunos problemas pueden solucionarse automáticamente por NetApp Console, mientras que otros requieren intervención manual. En este caso, NetApp Console proporciona instrucciones detalladas para ayudarte a implementar los cambios recomendados.
+Una vez finalizado el análisis diario, las configuraciones aparecen como "optimizadas" o "no optimizadas" en el panel de control de well-architected. Encontrarás la puntuación total de optimización, los problemas de configuración por categoría y una lista de problemas de configuración y recomendaciones. Puedes revisar las recomendaciones para los problemas de configuración. Algunos problemas pueden solucionarse automáticamente desde el panel de control de well-architected, mientras que otros requieren intervención manual. En este caso, el panel de control de well-architected te da instrucciones detalladas para ayudarte a implementar los cambios recomendados.
 
-Puedes descartar el análisis de las configuraciones que no se apliquen a tus entornos. Esto evita alertas innecesarias y resultados de optimización inexactos. Cuando descartas el análisis de una configuración concreta, NetApp Console no incluye la configuración en la puntuación total de optimización.
+Puedes descartar el análisis de las configuraciones que no se aplican a tus entornos. Así evitas alertas innecesarias y resultados de optimización inexactos. Cuando descartas el análisis de una configuración específica, el panel de control well-architected no incluye esa configuración en la puntuación total de optimización.
 
 
 
 [[why-it-matters]]
 == Por qué es importante
 
-La NetApp Console aplica las mejores prácticas a entornos de almacenamiento a gran escala, bases de datos y VMware, combinando la evaluación continua con recomendaciones y medidas correctivas. Las correcciones automatizadas aplicadas en la NetApp Console reducen los errores humanos, aseguran una gestión uniforme y mantienen el rendimiento y la fiabilidad en todas tus infraestructuras de sistema.
+El panel de control bien diseñado en NetApp Console aplica las mejores prácticas a entornos de almacenamiento, bases de datos y VMware a gran escala, combinando una evaluación continua con recomendaciones y acciones de remediación. La remediación automatizada aplicada en el panel de control bien diseñado reduce los errores humanos, asegura una gestión uniforme y mantiene el rendimiento y la fiabilidad en todas tus infraestructuras de sistema.
 
 
 
 [[supported-storage-systems]]
 == Sistemas de almacenamiento compatibles
 
-En el panel de «Well-Architected» de la Consola se admiten los siguientes sistemas de almacenamiento:
+El panel bien arquitectado en la Consola admite los siguientes sistemas de almacenamiento:
 
 * Amazon FSx for NetApp ONTAP
 * Cloud Volumes ONTAP en Microsoft Azure

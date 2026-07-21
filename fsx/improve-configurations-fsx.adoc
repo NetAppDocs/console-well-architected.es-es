@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: fsx/improve-configurations-fsx.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
-summary: Workload Factory analiza las configuraciones de Amazon FSx para NetApp ONTAP y ofrece información y recomendaciones que te ayudarán a alcanzar la excelencia operativa. 
+summary: El panel de control bien diseñado analiza las configuraciones de Amazon FSx for NetApp ONTAP y te ofrece información y recomendaciones para ayudarte a lograr la excelencia operativa. 
 ---
 = Implementa configuraciones bien diseñadas del sistema de archivos FSx for ONTAP
 :allow-uri-read: 
@@ -11,24 +11,22 @@ summary: Workload Factory analiza las configuraciones de Amazon FSx para NetApp 
 
 
 [role="lead"]
-Aprovecha Workload Factory, basándote en los datos y recomendaciones del análisis de configuración, para aplicar las mejores prácticas en tus sistemas de archivos FSx for ONTAP. Puedes revisar fácilmente el estado well-architected, conocer los problemas de tus configuraciones y tomar medidas para mejorar la arquitectura de cualquier sistema que no esté optimizado para la fiabilidad, seguridad, eficiencia, rendimiento y coste.
+Aprovecha las conclusiones y recomendaciones del análisis de configuración y utiliza NetApp para aplicar las mejores prácticas en tus sistemas de archivos FSx for ONTAP. Puedes revisar fácilmente el estado well-architected, conocer los problemas de tus configuraciones y tomar medidas para mejorar la arquitectura de cualquier sistema que no esté optimizado para la fiabilidad, seguridad, eficiencia, rendimiento y coste.
 
 También puedes descartar el análisis de configuraciones de almacenamiento específicas que no se apliquen a tu entorno de almacenamiento para evitar alertas innecesarias y resultados de optimización inexactos.
 
-link:configuration-analysis.html["Conoce el análisis de configuración y el estado well-architected en Workload Factory."]
+link:configuration-analysis-fsx.html["Conoce el análisis de configuración y el estado de well-architected."]
 
 
 
 [[about-this-task]]
 == Acerca de esta tarea
 
-Workload Factory analiza a diario las configuraciones de implementación del sistema de archivos de Amazon FSx for NetApp ONTAP. El análisis diario proporciona el estado de well-architected, así como información y recomendaciones con opciones para solucionar automáticamente los problemas de configuración, de modo que tu sistema de archivos cumpla con las mejores prácticas.
+El panel de control well-architected analiza a diario las configuraciones de implementación del sistema de archivos Amazon FSx for NetApp ONTAP. El análisis diario proporciona el estado well-architected, información detallada y recomendaciones. Puedes corregir automáticamente los problemas de configuración para cumplir con las mejores prácticas.
 
-La conectividad mediante Link o el agente de Console permite a Workload Factory realizar un análisis exhaustivo de tus sistemas de archivos para detectar problemas relacionados con el rendimiento, la protección de datos y las configuraciones.
+La conectividad de Link o del agente de la consola permite que el panel de control well-architected en la NetApp Console realice un análisis exhaustivo de tus sistemas de archivos para detectar problemas de rendimiento, protección de datos y configuraciones. Esto asegura que recibas información precisa y recomendaciones para optimizar tus sistemas de archivos FSx for ONTAP.
 
-Tienes opciones para revisar las recomendaciones sobre problemas de configuración de tus sistemas de archivos y solucionar esos problemas desde Almacenamiento dentro de la consola de Workload Factory.
-
-Dado que los requisitos de las configuraciones de almacenamiento varían, puedes descartar el análisis de configuraciones específicas que no se aplican a tu entorno de almacenamiento. Esto te ayuda a evitar alertas innecesarias y resultados de optimización inexactos. Cuando se descarta el análisis de una configuración específica, esa configuración no se incluye en la puntuación total de optimización.
+Los requisitos de configuración del almacenamiento varían. Puedes descartar el análisis de configuraciones específicas que no se apliquen a tu entorno de almacenamiento. Esto te ayuda a evitar alertas innecesarias y resultados de optimización inexactos.
 
 
 
@@ -46,7 +44,7 @@ Dado que los requisitos de las configuraciones de almacenamiento varían, puedes
 
 Puedes solucionar problemas de configuración de un sistema de archivos FSx para ONTAP o de volúmenes seleccionados dentro de un sistema de archivos. Puedes seleccionar una o varias configuraciones para solucionar.
 
-El proceso de corrección puede provocar tiempos de inactividad de las instancias o interrupciones del servicio. Revisa cada recomendación detenidamente antes de corregir un problema de configuración.
+La resolución de problemas de configuración puede provocar tiempos de inactividad de las instancias o interrupciones del servicio. Revisa cada recomendación detenidamente antes de resolver un problema de configuración.
 
 .Pasos
 . Inicia sesión en link:https://console.netapp.com/home["NetApp Console"^].
@@ -59,7 +57,7 @@ Asegúrate de revisar la recomendación con atención. La recomendación explica
 +
 Cuando *Ver y corregir* es una opción, selecciona los volúmenes afectados para corregir.
 
-. Revisa el resumen y las acciones pendientes que aparecen en el cuadro de diálogo para saber qué ocurre si solucionas el problema. Algunas operaciones pueden provocar tiempos de inactividad de la instancia o interrupciones del servicio.
+. Revisa el resumen y las acciones a realizar que aparecen en el cuadro de diálogo para saber qué ocurre si solucionas el problema. Algunas operaciones pueden provocar tiempos de inactividad de la instancia o interrupciones del servicio.
 . Selecciona *Continuar* para solucionar el problema de configuración.
 
 
@@ -122,7 +120,7 @@ Reactiva en cualquier momento un análisis de configuración descartado. Puedes 
 .Pasos
 . Inicia sesión en link:https://console.netapp.com/home["NetApp Console"^].
 . En el menú de la NetApp Console, selecciona *Workloads* y luego *Well-architected*.
-. Desde el panel de control de Well-architected, *Configuraciones descartadas*.
+. Desde el panel de control de Well-architected, selecciona *Configuraciones descartadas*.
 . Identifica la configuración que deseas reactivar y selecciona *Reactivar*.
 
 
@@ -145,4 +143,4 @@ Reactiva en cualquier momento un análisis de configuración descartado. Puedes 
 --
 ====
 .Resultado
-El sistema reactiva el análisis de configuración. Se realiza un nuevo análisis cada día.
+El análisis de configuración se reactiva. Workload Factory realiza un nuevo análisis cada día.
