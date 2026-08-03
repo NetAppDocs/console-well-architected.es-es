@@ -13,10 +13,12 @@ settings:
   langs: es-es,us-en,de-de,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Empezar
+  - title: Notas de publicación
     entries:
     - title: Novedades
       url: "/whats-new.html"
+  - title: Empezar
+    entries:
     - title: Descubre el panel de control de well-architected
       url: "/learn-well-architected-dashboard.html"
   - title: Productos compatibles

@@ -16,15 +16,18 @@ summary: Crea una regla arquitectónica personalizada usando lenguaje natural pa
 [role="lead"]
 Crea reglas personalizadas describiéndolas en lenguaje sencillo. El generador de reglas de IA convierte tu solicitud en una regla validada que comprueba tus recursos de FSx for ONTAP.
 
+.Acerca de esta tarea
+El proceso de creación de reglas te guía paso a paso: definir la regla, revisar cómo la ha interpretado la IA y comprobar los resultados antes de programar evaluaciones periódicas. Tú mantienes el control en cada paso. El sistema sugiere una regla basada en tu indicación, pero nada avanza hasta que la confirmes.
+
+
+NOTE: Si el administrador de tu cuenta ha desactivado las funciones de IA, aparecerá un mensaje y no podrás crear reglas personalizadas. Ponte en contacto con tu administrador o link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["conoce la administración de IA"^].
+
 .Antes de empezar
 * Has configurado las credenciales de AWS con acceso de solo lectura.
 * Dispones de credenciales de ONTAP con permisos de visualización.
 * Tienes un enlace o un agente configurado para la conectividad de FSx for ONTAP.
 * Entiendes que la creación de reglas personalizadas utiliza el servicio Bedrock AI de NetApp.
 
-
-.Acerca de esta tarea
-El proceso de creación de reglas te guía paso a paso: definir la regla, revisar cómo la ha interpretado la IA y comprobar los resultados antes de programar evaluaciones periódicas. Tú mantienes el control en cada paso. El sistema sugiere una regla basada en tu indicación, pero nada avanza hasta que la confirmes.
 
 
 

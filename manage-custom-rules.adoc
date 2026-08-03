@@ -42,7 +42,7 @@ Los resultados muestran qué recursos cumplen tu norma y cuáles no.
 . Selecciona **Ver detalles** para ver los resultados de cada ejecución.
 
 
-Si la comprobación ha fallado en algunos elementos, lee el mensaje de error para ver por qué. Las causas más habituales son problemas de conexión, falta de permisos o un Link/Connector que no se ha configurado.
+Si la comprobación ha fallado en algunos elementos, lee el mensaje de error para ver por qué. Las causas más habituales son problemas de conexión, falta de permisos o un enlace que no se ha configurado.
 
 
 
@@ -110,7 +110,7 @@ Con errores:: La evaluación no se ha completado. Las causas más comunes incluy
 Si una regla sigue fallando o solo tiene éxito parcialmente, comprueba que:
 
 * Las credenciales de AWS tienen acceso de solo lectura a todos los recursos.
-* El enlace y el conector están configurados para todos los sistemas de archivos en el alcance.
+* Link y el agente de Console están configurados para todos los sistemas de archivos en el alcance.
 * El usuario del visor FSx para ONTAP tiene los permisos adecuados.
 
 

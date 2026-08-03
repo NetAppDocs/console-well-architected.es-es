@@ -26,6 +26,9 @@ El generador de reglas te permite crear reglas personalizadas basadas en las mej
 Las reglas personalizadas te ayudan a garantizar el cumplimiento de las normas, los límites de riesgo y los requisitos operativos de tu organización, aspectos que las reglas genéricas de los proveedores quizá no cubran por completo.
 
 
+NOTE: Si el administrador de tu cuenta ha desactivado las funciones de IA, el generador de reglas no estará disponible y no podrás crear reglas personalizadas. link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Conoce cómo gestionar las funciones de IA"^].
+
+
 
 [[how-custom-rules-work]]
 == Cómo funcionan las reglas personalizadas
