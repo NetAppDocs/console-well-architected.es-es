@@ -88,7 +88,7 @@ Detén un análisis de configuración de un sistema Cloud Volumes ONTAP o de los
 
 [role="tabbed-block"]
 ====
-.Descartar un análisis de configuración de un sistema de archivos
+.Descartar un análisis de configuración de un sistema
 --
 .Pasos
 . Inicia sesión en link:https://console.netapp.com/home["NetApp Console"^].
@@ -119,7 +119,7 @@ Detén un análisis de configuración de un sistema Cloud Volumes ONTAP o de los
 --
 ====
 .Resultado
-El análisis de la configuración se detiene para el sistema de archivos o los volúmenes seleccionados.
+El análisis de la configuración finaliza para el sistema o los volúmenes seleccionados.
 
 Puedes reactivar el análisis en cualquier momento.
 
@@ -132,7 +132,7 @@ Reactiva en cualquier momento un análisis de configuración descartado para un 
 
 [role="tabbed-block"]
 ====
-.Reactivar un análisis de configuración de un sistema de archivos
+.Reactivar un análisis de configuración de un sistema
 --
 .Pasos
 . Inicia sesión en link:https://console.netapp.com/home["NetApp Console"^].
