@@ -4,7 +4,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">El panel de control well-architected en NetApp Console ofrece una vista única de tus sistemas de almacenamiento y configuraciones en todas las cuentas y regiones. El panel de control proporciona información y recomendaciones para ayudarte a alcanzar la excelencia operativa. Puedes ver el estado well-architected de tus configuraciones, los problemas de configuración organizados según los pilares del marco well-architected para el tipo de almacenamiento que usas, y una lista de problemas de configuración y recomendaciones.</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">panel bien diseñado</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">Obtén más información sobre el <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>.</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">El panel bien arquitectado en la Consola está disponible para los siguientes sistemas de almacenamiento:</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Cloud Volumes ONTAP en Microsoft Azure</block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Crea tus propias reglas personalizadas</block>
@@ -482,8 +481,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">Análisis de la configuración</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">Mejora las configuraciones del sistema de archivos</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">Mejora las configuraciones del sistema</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">También puedes descartar el análisis de configuraciones de almacenamiento específicas que no se apliquen a tu entorno de almacenamiento para evitar alertas innecesarias y resultados de optimización inexactos.</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">Instala un agente de Console</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> o <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> para obtener el análisis más completo de los recursos de tu sistema de archivos.</block>
@@ -568,7 +565,6 @@
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">Una vez finalizado el análisis diario, las configuraciones aparecen como "optimizadas" o "no optimizadas" en el panel de Well-architected para la implementación. Encontrarás los problemas de configuración por categoría y una lista de problemas de configuración y recomendaciones. Puedes revisar las recomendaciones para los problemas de configuración. Algunos problemas pueden solucionarse automáticamente con Workload Factory, mientras que otros requieren intervención manual. En este caso, Workload Factory te da instrucciones detalladas para ayudarte a implementar los cambios recomendados.</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory aplica las mejores prácticas a entornos de almacenamiento a gran escala, bases de datos y VMware, combinando una evaluación continua con recomendaciones y medidas correctivas. Las correcciones automatizadas que se aplican en la NetApp Console reducen los errores humanos, garantizan una gestión uniforme y mantienen el rendimiento y la fiabilidad en todas tus infraestructuras de cargas de trabajo.</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nombres de configuración actualizados para FSx for ONTAP en el panel de control de well-architected</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">El panel bien diseñado en la NetApp Console ahora muestra nombres actualizados de configuración de almacenamiento para FSx for ONTAP para mejorar la claridad y la coherencia.</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">La siguiente tabla muestra los nombres de configuración antiguos y sus correspondientes nombres de configuración nuevos en el panel de control de well-architected.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Nombre de la configuración anterior</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Nuevo nombre de configuración</block>
@@ -668,4 +664,13 @@
   <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">Reactivar un análisis de configuración de un grupo de almacenamiento</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 de agosto de 2026</block>
   <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">Mejora las configuraciones de los grupos de almacenamiento</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Cloud Volumes ONTAP en Microsoft Azure.</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">El panel bien arquitectado en la Consola está disponible para <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">Compatibilidad con FSx para ONTAP en el panel bien arquitectado en NetApp Console</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">El panel bien diseñado en la NetApp Console está disponible para Amazon FSx for NetApp ONTAP.</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Infórmate sobre el análisis de configuración de FSx for ONTAP</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">El panel bien arquitectado en la NetApp Console ahora incluye nuevos nombres de configuración de almacenamiento para FSx for ONTAP.</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problemas de Well-Architected que se muestran en la página Systems de NetApp Console</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Las notificaciones sobre problemas relacionados con el diseño óptimo están disponibles para Cloud Volumes ONTAP en Microsoft Azure desde la página Sistemas de gestión de almacenamiento en la NetApp Console. Esta función te ayuda a identificar rápidamente problemas de configuración en tus sistemas Cloud Volumes ONTAP en Azure y a navegar al panel de control well-architected de Workloads desde la notificación.</block>
 </blocks>
