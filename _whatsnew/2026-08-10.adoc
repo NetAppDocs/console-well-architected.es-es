@@ -1,0 +1,12 @@
+= Compatibilidad de Google Cloud NetApp Volumes en el panel de control well-architected
+:allow-uri-read: 
+
+
+
+
+[[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
+=== Compatibilidad de Google Cloud NetApp Volumes en el panel de control well-architected
+
+El panel de control de la NetApp Console ahora es compatible con Google Cloud NetApp Volumes. Los administradores de almacenamiento pueden consultar el estado de sus grupos de almacenamiento y configuraciones, obtener recomendaciones para mejorar la eficiencia, el coste, el rendimiento, la fiabilidad y la seguridad, y tomar medidas para optimizar las operaciones y seguir las mejores prácticas.
+
+Más información sobre link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Análisis de configuración para Google Cloud NetApp Volumes"].
