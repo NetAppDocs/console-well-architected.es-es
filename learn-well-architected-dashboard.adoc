@@ -11,25 +11,25 @@ summary: El panel bien arquitectado en la NetApp Console analiza las configuraci
 
 
 [role="lead"]
-El panel de control de arquitectura óptima en NetApp Console te ayuda a mantener y operar configuraciones fiables, seguras, eficientes y rentables que se alinean con los marcos de arquitectura óptima para el tipo de almacenamiento que usas. El panel de control proporciona una vista unificada de todas las cuentas y regiones, ayuda a los equipos a identificar y priorizar riesgos, y admite reglas personalizadas para requisitos específicos. Los análisis diarios automáticos de las configuraciones de tu sistema de almacenamiento te ofrecen información detallada y recomendaciones para ayudarte a optimizar tus entornos de almacenamiento.
+NetApp Workload Factory te ayuda a mantener y operar configuraciones fiables, seguras, eficientes y rentables que se alinean con los marcos bien arquitectados para el tipo de almacenamiento que usas. El panel bien arquitectado en NetApp Console ofrece una vista unificada entre cuentas y regiones, ayuda a los equipos a identificar y priorizar riesgos, y admite reglas personalizadas para requisitos específicos. Los análisis automáticos diarios de las configuraciones de tu sistema de almacenamiento proporcionan información y recomendaciones para ayudarte a optimizar tus entornos de almacenamiento.
 
 
 
 [[how-it-works]]
 == Cómo funciona
 
-El panel de control «Well-Architected» analiza tus configuraciones a diario. El análisis ofrece el estado de «Well-Architected», información detallada y recomendaciones.
+Workload Factory analiza tus configuraciones a diario. El análisis proporciona el estado bien arquitectado, información y recomendaciones para ayudarte a optimizar tus entornos de almacenamiento.
 
-Una vez finalizado el análisis diario, las configuraciones aparecen como "optimizadas" o "no optimizadas" en el panel de control de well-architected. Encontrarás la puntuación total de optimización, los problemas de configuración por categoría y una lista de problemas de configuración y recomendaciones. Puedes revisar las recomendaciones para los problemas de configuración. Algunos problemas pueden solucionarse automáticamente desde el panel de control de well-architected, mientras que otros requieren intervención manual. En este caso, el panel de control de well-architected te da instrucciones detalladas para ayudarte a implementar los cambios recomendados.
+Una vez finalizado el análisis diario, las configuraciones aparecen como "optimizadas" o "no optimizadas" en el panel de control de well-architected. Encontrarás los problemas de configuración clasificados por categoría del marco well-architected (fiabilidad, seguridad, excelencia operativa, optimización de costes y eficiencia del rendimiento) y una lista de problemas de configuración y recomendaciones. Workload Factory puede solucionar algunos problemas automáticamente, mientras que otros requieren intervención manual. En este caso, la recomendación te da instrucciones detalladas para ayudarte a implementar los cambios.
 
-Puedes descartar el análisis de las configuraciones que no se aplican a tus entornos. Así evitas alertas innecesarias y resultados de optimización inexactos. Cuando descartas el análisis de una configuración específica, el panel de control well-architected no incluye esa configuración en la puntuación total de optimización.
+Puedes descartar el análisis de las configuraciones que no se apliquen a tus entornos. Descartar configuraciones evita alertas innecesarias y resultados de optimización inexactos.
 
 
 
 [[why-it-matters]]
 == Por qué es importante
 
-El panel de control bien diseñado en NetApp Console aplica las mejores prácticas a entornos de almacenamiento, bases de datos y VMware a gran escala, combinando una evaluación continua con recomendaciones y acciones de remediación. La remediación automatizada aplicada en el panel de control bien diseñado reduce los errores humanos, asegura una gestión uniforme y mantiene el rendimiento y la fiabilidad en todas tus infraestructuras de sistema.
+Workload Factory aplica las mejores prácticas a entornos de almacenamiento a gran escala, bases de datos y VMware, combinando una evaluación continua con recomendaciones y medidas correctivas. La corrección automatizada reduce los errores humanos, garantiza una gestión uniforme y preserva el rendimiento y la fiabilidad en todas las infraestructuras de tu sistema.
 
 
 

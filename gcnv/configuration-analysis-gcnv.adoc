@@ -11,7 +11,7 @@ summary: NetApp Console analiza periódicamente las configuraciones de los siste
 
 
 [role="lead"]
-El panel bien diseñado en NetApp Console analiza regularmente las configuraciones del sistema de almacenamiento para determinar si hay algún problema de configuración. Cuando se encuentran problemas, el panel te muestra cuáles son y te explica qué necesitas cambiar para asegurarte de que tus sistemas de almacenamiento logren el máximo rendimiento, eficiencia de costos y cumplimiento con las mejores prácticas.
+Workload Factory analiza periódicamente las configuraciones de los sistemas de almacenamiento para determinar si existe algún problema de configuración. Cuando se detectan problemas, el panel de control well-architected de la NetApp Console muestra cuáles son dichos problemas y explica qué cambios hay que realizar para garantizar que tus sistemas de almacenamiento alcancen el máximo rendimiento, sean rentables y cumplan con las mejores prácticas.
 
 Las capacidades clave incluyen:
 

@@ -11,7 +11,9 @@ summary: El panel de control bien estructurado analiza las configuraciones de Cl
 
 
 [role="lead"]
-Usando las conclusiones y recomendaciones del análisis de configuración, aprovecha NetApp para implementar las mejores prácticas en tus sistemas Cloud Volumes ONTAP que se ejecutan en el almacenamiento de Microsoft Azure. Puedes revisar fácilmente el estado bien arquitectado, conocer los problemas de tus configuraciones y obtener recomendaciones para mejorar la arquitectura de cualquier sistema que no esté optimizado para la fiabilidad, seguridad, eficiencia, rendimiento y coste.
+NetApp te ayuda a implementar las mejores prácticas para tus sistemas Cloud Volumes ONTAP que se ejecutan en el almacenamiento de Microsoft Azure usando información y recomendaciones derivadas del análisis de la configuración. Puedes revisar el estado de la arquitectura recomendada, conocer los problemas relacionados con tus configuraciones y obtener recomendaciones para mejorar la arquitectura de los sistemas que no están optimizados en cuanto a fiabilidad, seguridad, eficiencia, rendimiento y coste.
+
+También puedes descartar el análisis de configuraciones de almacenamiento específicas que no se apliquen a tu entorno de almacenamiento para evitar alertas innecesarias y resultados de optimización inexactos.
 
 link:configuration-analysis-cvo.html["Conoce el análisis de configuración y el estado de well-architected."]
 
@@ -20,11 +22,11 @@ link:configuration-analysis-cvo.html["Conoce el análisis de configuración y el
 [[about-this-task]]
 == Acerca de esta tarea
 
-El panel de control well-architected analiza a diario las configuraciones de implementación del sistema Cloud Volumes ONTAP en Microsoft Azure. El análisis diario ofrece el estado well-architected, información detallada y recomendaciones.
+Workload Factory analiza a diario las configuraciones del sistema Cloud Volumes ONTAP en Microsoft Azure. El análisis diario proporciona el estado well-architected, información detallada y recomendaciones. Puedes corregir automáticamente los problemas de configuración para cumplir con las mejores prácticas.
 
-La conectividad mediante Link o el agente de la consola permite que el panel de control well-architected en la NetApp Console realice un análisis exhaustivo de tus sistemas Cloud Volumes ONTAP para detectar problemas relacionados con el rendimiento, la protección de datos y las configuraciones. Esto asegura que recibas información precisa y recomendaciones para optimizar tus sistemas Cloud Volumes ONTAP.
+La conectividad a través de Link o del agente de consola permite que Workload Factory realice un análisis exhaustivo de tus sistemas Cloud Volumes ONTAP para detectar problemas de rendimiento, protección de datos y configuraciones. Esto asegura que recibas información precisa y recomendaciones para optimizar tus sistemas Cloud Volumes ONTAP.
 
-Los requisitos de configuración del almacenamiento varían. Puedes descartar el análisis de configuraciones específicas que no se apliquen a tu entorno de almacenamiento. Esto te ayuda a evitar alertas innecesarias y resultados de optimización inexactos.
+Los requisitos de configuración del almacenamiento varían. Puedes descartar el análisis de configuraciones específicas que no se apliquen a tu entorno de almacenamiento. Descartar las configuraciones que no se apliquen te ayuda a evitar alertas innecesarias y resultados de optimización inexactos.
 
 
 
@@ -74,10 +76,7 @@ El proceso de corrección puede provocar tiempos de inactividad de las instancia
 +
 Asegúrate de revisar la recomendación con atención. La recomendación explica las mejores prácticas y los posibles inconvenientes de las configuraciones no optimizadas.
 
-. Selecciona *Corregir*.
-+
-Cuando *Ver y corregir* es una opción, selecciona los volúmenes afectados para corregir.
-
+. Selecciona *Corregir* para un solo volumen o *Ver y corregir* para varios volúmenes. Para varios volúmenes, selecciona los volúmenes afectados que deseas corregir.
 . Revisa el resumen y las acciones pendientes que aparecen en el cuadro de diálogo para saber qué ocurre si solucionas el problema. Algunas operaciones pueden provocar tiempos de inactividad de la instancia o interrupciones del servicio.
 . Selecciona *Continuar* para solucionar el problema de configuración.
 
