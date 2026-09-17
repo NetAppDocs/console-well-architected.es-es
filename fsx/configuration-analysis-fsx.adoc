@@ -48,7 +48,7 @@ Workload Factory aplica las mejores prácticas a entornos de almacenamiento a gr
 
 Para realizar un análisis completo del sistema de archivos, debes hacer lo siguiente:
 
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Implementa un agente de NetApp Console"^] o link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["asociar un enlace"^] para configurar la conectividad entre el sistema de archivos y NetApp Console.
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Implementa un agente de NetApp Console"^] o link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["asociar un enlace"^] para configurar la conectividad entre el sistema de archivos y NetApp Console.
 * Concede permisos de _vista, planificación y análisis_ en tu cuenta de AWS.
 +
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprende cómo conceder permisos a una cuenta de AWS"^]
