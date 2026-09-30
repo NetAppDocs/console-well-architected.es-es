@@ -85,7 +85,7 @@ Es posible que la IA te pida que elijas entre varias opciones para comprender me
 [[test-the-rule]]
 == Comprueba la regla
 
-Antes de programar la regla, realiza una prueba única para ver a qué recursos afectará.
+Antes de guardar o programar la regla, realiza una prueba para ver a qué recursos afectará.
 
 .Pasos
 . Selecciona *Validar regla*.
@@ -114,13 +114,13 @@ El sistema evalúa todos los recursos en el alcance según la lógica de tu regl
 [[save-or-schedule-the-rule]]
 == Guardar o programar la regla
 
-Después de probar tu regla, puedes guardarla como borrador o configurarla para que se ejecute regularmente.
+Una vez que hayas validado tu regla, puedes guardarla como borrador o configurarla para que se ejecute periódicamente.
 
 .Pasos
 . Debe realizar una de las siguientes acciones:
 +
 ** Para programar una evaluación periódica, establece la frecuencia de evaluación (mínimo 1 hora, por defecto 24 horas) y selecciona *Schedule*. La regla se activa y se ejecuta según la programación definida.
-** Para guardar sin programarlo, selecciona *Guardar como borrador*. La regla se guarda, pero no se evalúa hasta que la programes.
+** Para guardar después de la validación sin programarla, selecciona *Guardar como borrador*. La regla se guarda, pero no se evalúa hasta que la programes.
 ** Para descartar la regla, selecciona *Descartar* para cancelar la creación de la regla y volver a empezar.
 
 

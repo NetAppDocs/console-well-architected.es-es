@@ -14,7 +14,7 @@ summary: Ver, activar, desactivar y eliminar reglas arquitectónicas personaliza
 
 
 [role="lead"]
-El catálogo de reglas es un lugar desde el que puedes gestionar todas tus reglas personalizadas. Puedes consultar los detalles de cada regla, comprobar sus resultados y activarla o desactivarla.
+El catálogo de reglas es un lugar donde puedes gestionar todas tus reglas personalizadas. Puedes consultar los detalles de las reglas, comprobar los resultados y controlar si las reglas se ejecutan según una programación.
 
 
 
@@ -97,8 +97,13 @@ Las pruebas se auditan y aparecen en el historial de evaluación de la regla.
 
 
 
-[[understand-execution-status]]
-== Entiende el estado de ejecución
+[[understand-rule-and-execution-status]]
+== Comprende la regla y el estado de ejecución
+
+El catálogo de reglas muestra tanto el estado de la regla como el estado de ejecución.
+
+Estado de la regla:: *Borrador* significa que la regla está guardada, pero aún no se ha programado. *En curso* significa que la regla se está creando o validando. *Programada* significa que la regla está activa y se ejecuta según su programación. *Pausada* significa que la regla permanece en el catálogo, pero no se ejecuta. *No se pudo crear* significa que la regla no se completó y debes actualizarla en el chat antes de poder guardarla.
+
 
 El estado de ejecución muestra si una regla se ejecutó correctamente.
 

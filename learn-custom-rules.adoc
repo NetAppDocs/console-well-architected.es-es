@@ -78,6 +78,7 @@ Nombre de la regla:: Un nombre definido por el usuario para la regla.
 Descripción:: Tu justificación de por qué esta norma es importante para tu organización.
 Tipo de recurso:: El recurso FSx que se va a evaluar (sistema de archivos, volumen o caché). Actualmente, un tipo de recurso por regla.
 Planificador:: Con qué frecuencia se evalúa la regla (mínimo 1 hora, por defecto 24 horas).
+Gravedad:: El nivel de importancia de la regla, como advertencia o crítico.
 Lógica de condiciones:: Los criterios concretos que hay que comprobar.
 Ámbito de la evaluación:: Qué recursos se evalúan (todos los recursos pertinentes en el ámbito de aplicación).
 Lógica de corrección:: Guía práctica para abordar los recursos no conformes.
@@ -90,11 +91,13 @@ Lógica de corrección:: Guía práctica para abordar los recursos no conformes.
 
 Las reglas personalizadas pasan por los siguientes estados:
 
-Borrador:: Se está creando una regla. No se realiza ninguna evaluación.
-Simulación:: Evaluación única para obtener una vista previa de los recursos que se verían afectados. Se usa para la validación antes de programar.
-Programado (activado):: La regla está activa y se ejecuta según la programación definida.
-Deshabilitado:: La regla está en pausa, pero no se ha eliminado. Puedes volver a activarla.
-Eliminado:: La regla se elimina definitivamente.
+En curso:: Crear o comprobar reglas.
+No se ha podido crear:: No se ha podido crear la regla.
+Borrador:: Guardado, pero aún no programado.
+Borrador validado:: Ha superado la validación y se puede guardar o programar.
+Programado (activado):: Está activo y se ejecuta según el horario definido.
+Deshabilitado:: En pausa, pero no eliminado. Se puede volver a activar.
+Eliminado:: Eliminado definitivamente.
 
 
 

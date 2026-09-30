@@ -11,7 +11,7 @@ summary: NetApp Console analiza periódicamente las configuraciones de los siste
 
 
 [role="lead"]
-Workload Factory analiza periódicamente las configuraciones de los sistemas de almacenamiento para determinar si existe algún problema de configuración. Cuando se detectan problemas, el panel de control well-architected de la NetApp Console muestra cuáles son dichos problemas y explica qué cambios hay que realizar para garantizar que tus sistemas de almacenamiento alcancen el máximo rendimiento, sean rentables y cumplan con las mejores prácticas.
+El panel de arquitectura bien diseñada de NetApp Console comprueba periódicamente la configuración de tu sistema de almacenamiento en busca de posibles problemas. Si detecta algún problema, muestra de qué se trata y explica cómo solucionarlo para que tus sistemas de almacenamiento funcionen correctamente, controlen los costes y sigan las mejores prácticas tanto en Default-mode como en ONTAP-mode para entornos de Flex Unified Google Cloud NetApp Volumes.
 
 Las capacidades clave incluyen:
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ap
 [[best-practices-and-recommendations-for-storage-workloads]]
 == Mejores prácticas y recomendaciones para cargas de trabajo de almacenamiento
 
-Workload Factory evalúa las configuraciones de almacenamiento según las prácticas recomendadas de almacenamiento y ONTAP y el marco Well-Architected de Google Cloud. La evaluación también recomienda mejoras.
+Workload Factory evalúa las configuraciones de almacenamiento según las mejores prácticas de almacenamiento y ONTAP, así como según el Google Cloud Well-Architected Framework. La evaluación también recomienda mejoras para los recursos de Google Cloud NetApp Volumes en modo predeterminado y los recursos Flex Unified detectados a través del endpoint proxy de la API de ONTAP.
 
-El análisis de «Well-Architected» clasifica las configuraciones en los siguientes pilares del marco: _fiabilidad_ y _excelencia operativa_.
+El análisis de buena arquitectura clasifica las configuraciones en los siguientes pilares del marco: _fiabilidad_ y _excelencia operativa_. Los resultados de la evaluación pueden incluir un valor de modo como _Default-mode_ o _ONTAP-mode_.
 
 
 
