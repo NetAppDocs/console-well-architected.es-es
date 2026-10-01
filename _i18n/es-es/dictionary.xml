@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">El catálogo de reglas muestra tanto el estado de la regla como el estado de ejecución.</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">Estado de la regla</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*Borrador* significa que la regla está guardada, pero aún no se ha programado. *En curso* significa que la regla se está creando o validando. *Programada* significa que la regla está activa y se ejecuta según su programación. *Pausada* significa que la regla permanece en el catálogo, pero no se ejecuta. *No se pudo crear* significa que la regla no se completó y debes actualizarla en el chat antes de poder guardarla.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de septiembre de 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 de septiembre de 2026</block>
 </blocks>
